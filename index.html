@@ -17,7 +17,8 @@ body::before{background:#FF2D78;top:-90px;left:-90px}body::after{background:#00C
 @keyframes fl{to{transform:translate(70px,50px) scale(1.2)}}
 .w{max-width:940px;margin:0 auto;padding:16px}
 header{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:10px;flex-wrap:wrap}
-h1{font-size:24px;font-weight:800;margin:0;background:var(--g);-webkit-background-clip:text;background-clip:text;color:transparent}
+h1{font-size:24px;font-weight:800;margin:0}
+.logo-txt{background:var(--g);-webkit-background-clip:text;background-clip:text;color:transparent}}
 h2{font-size:24px;font-weight:800;margin:14px 0 4px}h3{font-size:15px;margin:0;font-weight:700}
 .mu{color:var(--mu);font-size:13px}
 .xp{min-width:150px;text-align:right;font-size:12px;font-weight:700}
@@ -68,8 +69,8 @@ label{display:block;font-weight:600;margin:12px 0 4px}
 </head>
 <body>
 <div class="w">
-<header> <h1>🤓☝️ EnemFlow</h1><div class="xp" id="xp"></div></header>
-<nav id="nav"></nav>
+<header><h1><span class="logo-ico">📚</span> <span class="logo-txt">EnemFlow</span></h1><div class="xp" id="xp"></div></header>
+ <nav id="nav"></nav>
 <main id="app"></main>
 </div>
 <script>
